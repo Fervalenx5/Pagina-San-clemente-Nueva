@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Index.html">Inicio</a>
+            <a href="Actividades.html">Actividades</a>
+            <a href="Playas.html">Playas</a>
+            <a href="opiniones.html">Opiniones</a>
+        </nav>
+    </header>
+<div class="fondo-form">
+    <div class="bod">
+   
+        <form action="https://formsubmit.co/fernandovalentin2003@gmail.com" method="POST">
+         <h1>Tu opinion</h1>
+            <h2>Te pedimos que dejes una breve opinion sobre mi primer pagina.</h2>
+                <div class="formulario">
+                 <label for="nombre">Nombre</label>
+                 <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+    
+                 <label for="apellido">Apellido</label>
+                 <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+    
+                 <label for="opinion">Opinion</label>
+                 <textarea name="opinion" id="opinion" cols="30" rows="5" placeholder="Opinion" ></textarea>
+        
+                 <input class="bnt" type="submit" value="Enviar">
+    
+                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/opiniones.html">
+                 <input type="hidden" name="_captcha" value="false">
+                </div>         
+        </form>
+        <img class="foto1" src="collage1.jpg" alt="">
+    </div>
+</body>
+</html>
